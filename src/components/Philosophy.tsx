@@ -47,7 +47,7 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Наша философия
+              Контекст
             </p>
 
             <h2
@@ -55,10 +55,8 @@ export function Philosophy() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              Искусство
-              <span className="italic"> осознанной</span>
-              <br />
-              жизни
+              Новый голос
+              <span className="italic"> в поле</span>
             </h2>
 
             <div
@@ -67,13 +65,12 @@ export function Philosophy() {
               }`}
             >
               <p>
-                Мы верим, что каждое пространство таит в себе потенциал для преображения. Не через добавление,
-                а через бережное вычитание — открывая то, что всегда было предначертано.
+                За последние пять лет агроблогеры превратились из любопытного феномена в полноценный медиасегмент.
+                Миллионы подписчиков следят за жизнью фермеров в реальном времени — без редакторов, без фильтров.
               </p>
               <p>
-                Наш подход вдохновлён японской концепцией <em className="text-foreground">ма</em> — глубокой
-                красотой пустоты — и скандинавским пониманием
-                <em className="text-foreground"> хюгге</em>, этого ощущения уютного умиротворения.
+                Традиционные агроиздания существуют десятилетиями: глубокая аналитика, экспертные источники,
+                доверие аудитории. Но охват сокращается, а молодые фермеры ищут информацию в TikTok и Telegram.
               </p>
             </div>
 
@@ -84,16 +81,16 @@ export function Philosophy() {
               }`}
             >
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">12</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Лет опыта</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">73%</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Фермеров читают блогеров</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">140+</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Проектов</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">5×</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Рост аудитории за 5 лет</p>
               </div>
               <div>
-                <p className="font-serif text-3xl md:text-4xl text-sage">8</p>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Наград</p>
+                <p className="font-serif text-3xl md:text-4xl text-sage">2</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mt-2">Модели медиа</p>
               </div>
             </div>
           </div>
