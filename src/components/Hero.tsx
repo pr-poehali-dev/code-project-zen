@@ -9,8 +9,16 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 lg:px-12 pt-20">
-      {/* Subtle background texture */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-sand/30 to-background" />
+      {/* Background field photo */}
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src="https://cdn.poehali.dev/projects/4410dbe7-7eb0-4fdc-b48f-c8f95cdc403c/files/4be50f1c-3dc9-4cec-bfe5-42914f20024b.jpg"
+          alt="Пшеничное поле на закате"
+          className="w-full h-full object-cover object-center opacity-20"
+        />
+      </div>
+      {/* Overlay gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
 
       <div className="relative z-10 max-w-5xl mx-auto text-center">
         {/* Overline */}
